@@ -17,3 +17,8 @@ input = gets.to_i
 puts '結果は、、、'
  
 puts fizz_buzz(input)
+
+def greeting
+    return 'Hello, John!'  # 'Hello, John!'が、このメソッドの戻り値
+    'Hi, John!'
+end
